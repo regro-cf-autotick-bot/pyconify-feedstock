@@ -1,13 +1,13 @@
 {% set name = "pyconify" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyconify-{{ version }}.tar.gz
-  sha256: 8dd53757d9fbed41711434460932b2b5dbc25da720cd9f9a44af0187b2dfc07d
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyconify-{{ version }}.tar.gz
+  sha256: ec6dd6b95fb2b39d41ae96d8fd2015c182eb27c48381c926fd732d387e7ffbd9
 
 build:
   noarch: python
